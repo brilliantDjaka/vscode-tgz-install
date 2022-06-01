@@ -12,3 +12,6 @@ curl -fsSL https://raw.githubusercontent.com/brilliantDjaka/vscode-tgz-install/m
 After install done, vscode will be installed into `~/Apps/VSCode-linux-x64`.
 
 You can also run vscode by typing `code` in terminal like usual.
+
+## NOTE
+This only support linux with x64 architecture
