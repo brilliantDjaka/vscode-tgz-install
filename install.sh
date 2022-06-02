@@ -37,14 +37,11 @@ Name=Visual Studio Code
 # A comment which can/will be used as a tooltip
 #Comment=Flash card based learning tool
 
-# The path to the folder in which the executable is run
-Path=/var/home/djaka/
-
 # The executable of the application, possibly with arguments.
 Exec=code
 
 # The name of the icon that will be used to display this entry
-Icon=/var/home/djaka/Apps/VSCode-linux-x64/resources/app/resources/linux/code.png
+Icon=~/Apps/VSCode-linux-x64/resources/app/resources/linux/code.png
 
 # Describes whether this application needs to be run in a terminal or not
 Terminal=false
