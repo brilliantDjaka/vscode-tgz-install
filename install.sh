@@ -41,7 +41,7 @@ Name=Visual Studio Code
 Exec=code
 
 # The name of the icon that will be used to display this entry
-Icon=~/Apps/VSCode-linux-x64/resources/app/resources/linux/code.png
+Icon=$HOME/Apps/VSCode-linux-x64/resources/app/resources/linux/code.png
 
 # Describes whether this application needs to be run in a terminal or not
 Terminal=false
