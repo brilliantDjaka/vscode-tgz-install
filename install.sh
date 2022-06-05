@@ -18,6 +18,8 @@ rm -rf ~/Apps/VSCode-linux-x64
 
 tar zxvf /tmp/vscode-tgz-installer/code.tar.gz -C ~/Apps
 
+mkdir ~/.local/bin 2> /dev/null
+
 rm -f ~/.local/bin/code
 
 ln -s ~/Apps/VSCode-linux-x64/bin/code ~/.local/bin/code
