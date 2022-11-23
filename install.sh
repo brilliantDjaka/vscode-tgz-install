@@ -12,17 +12,17 @@ mkdir "/tmp/vscode-tgz-installer"
 
 wget "https://code.visualstudio.com/sha/download?build=stable&os=linux-x64" --output-document="/tmp/vscode-tgz-installer/code.tar.gz"
 
-mkdir ~/Apps 2> /dev/null
+mkdir ~/Applications 2> /dev/null
 
-rm -rf ~/Apps/VSCode-linux-x64
+rm -rf ~/Applications/VSCode-linux-x64
 
-tar zxvf /tmp/vscode-tgz-installer/code.tar.gz -C ~/Apps
+tar zxvf /tmp/vscode-tgz-installer/code.tar.gz -C ~/Applications
 
 mkdir ~/.local/bin 2> /dev/null
 
 rm -f ~/.local/bin/code
 
-ln -s ~/Apps/VSCode-linux-x64/bin/code ~/.local/bin/code
+ln -s ~/Applications/VSCode-linux-x64/bin/code ~/.local/bin/code
 
 rm -f ~/.local/share/applications/code.desktop
 
@@ -43,7 +43,7 @@ Name=Visual Studio Code
 Exec=code
 
 # The name of the icon that will be used to display this entry
-Icon=$HOME/Apps/VSCode-linux-x64/resources/app/resources/linux/code.png
+Icon=$HOME/Applications/VSCode-linux-x64/resources/app/resources/linux/code.png
 
 # Describes whether this application needs to be run in a terminal or not
 Terminal=false

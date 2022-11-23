@@ -9,7 +9,7 @@ Just copy paste into terminal.
 curl -fsSL https://raw.githubusercontent.com/brilliantDjaka/vscode-tgz-install/master/install.sh | bash
 ```
 
-After install done, vscode will be installed into `~/Apps/VSCode-linux-x64`.
+After install done, vscode will be installed into `~/Applications/VSCode-linux-x64`.
 
 You can also run vscode by typing `code` in terminal like usual.
 
